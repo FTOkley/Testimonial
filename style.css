@@ -1,0 +1,114 @@
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    background-color: rgb(206, 212, 217);
+    padding: 30px;
+    height: fit-content;
+}
+.message{
+    text-align: left;
+    position: relative;
+    bottom: 100px;
+    
+    
+}
+
+.box1{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 5px;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color:white;
+    justify-content: center;
+    padding: .7rem 2rem;
+    /* height: fit-content; */
+    /* width: fit-content; */
+    
+}
+.box2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 5px;
+    grid-column-start: 3 ;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: white;
+    justify-content: center;
+    padding: .7rem 2rem;
+    /* height: fit-content; */
+    /* width: fit-content; */
+    
+}
+.box5{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    grid-column-start: 5 ;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    padding: .7rem 2rem;
+    /* height: fit-content; */
+    /* width: fit-content; */
+    
+}
+.box3{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    grid-column-start: 1 ;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: .7rem 2rem;
+    /* height: fit-content; */
+    /* width: fit-content; */
+}
+.box4{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 5px;
+    grid-column: span 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+    color: white;
+    padding: .7rem 2rem;
+    /* height: fit-content; */
+    /* width: fit-content; */
+}
+
+
+h6{
+    opacity: 50%;
+}
+p{
+    line-height: 1.5rem;
+    word-wrap: normal;
+}
+.avatar{
+    border-radius: 30%;
+}
+.names{
+    position: relative;
+    left: 80px;
+    bottom: 80px;
+    word-wrap: normal;
+   
+}
+.quote{
+    float:right;
+    position: relative;
+    top:100px;
+    right: 100px;
+    opacity: .7;
+   
+ 
+}
+
+@media (max-width: 375px)
+{.boxes{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+}
