@@ -11,7 +11,8 @@ and get it looking as close to the design as possible.
 <h2>Template</h2>
 <figcaption>The image attached is the desktop template </figcaption><br>
 <br>
-<img width="1440" alt="Desktop " src="">
+<img width="1440" alt="Desktop screenshot" src="![Screenshot (18)](https://user-images.githubusercontent.com/103600535/175053674-e343097f-5660-4b7c-8f59-2e2286d525ef.png)
+">
 <br>
 <br>
 
