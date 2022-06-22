@@ -18,8 +18,8 @@ and get it looking as close to the design as possible.
 <h2> Link To Page </h2>
 
 
-  1. Live URL: <a href="https://ftokley.github.io/testimonialgrid/" target="_blank">Tribute landing page</a><br>
-  2. Solution: <a href="https://github.com/FTOkley/testimonialgrid" target="_blank">Solution Manual</a>
+  1. Live URL: <a href="https://ftokley.github.io/testimonial/" target="_blank">Testimonial Grid landing page</a><br>
+  2. Solution: <a href="https://github.com/FTOkley/testimonial" target="_blank">Solution Manual</a>
   
  <h2> Built With </h2>
  1 HTML5 markup<br>
