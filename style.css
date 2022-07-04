@@ -14,9 +14,7 @@
     text-align: left;
     position: relative;
     /* bottom: 100px; */
-    /* height: fit-content; */
-    
-    
+    /* height: fit-content; */    
 }
 
 .box1{
@@ -44,8 +42,7 @@
     justify-content: center;
     padding: .7rem 2rem;
     /* height: fit-content; */
-    /* width: fit-content; */
-    
+    /* width: fit-content; */  
 }
 .box5{
     background-color: hsl(0, 0%, 100%);
@@ -83,7 +80,6 @@
     /* width: fit-content; */
 }
 
-
 h6{
     opacity: 50%;
 }
@@ -93,9 +89,11 @@ p{
     opacity: 0.8;
     padding-top: 2rem;
 }
+
 .avatar{
     border-radius: 30%;
 }
+
 .names{
     position: relative;
     left: 80px;
@@ -103,21 +101,16 @@ p{
     word-wrap: normal;
 }
 
-
 .quote{
     float:right;
     position: relative;
     top:50px;
     right: 100px;
     opacity: .7;
-   
- 
 }
 
 @media (max-width: 375px)
 {.boxes{
     display: flex;
     flex-wrap: wrap;  
-}
-
 }
